@@ -26,7 +26,7 @@ class Teacher extends Person {
     }
 
     teach(subject) {
-        console.log(`Foo teaches ${subject} bar`)
+        console.log(`${this.name} teaches ${subject} bar`)
     }
 }
 const sean = new Teacher("Sean", 45);
